@@ -5,9 +5,13 @@ Home: https://github.com/googleapis/python-automl
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-automl-feedstock/blob/master/LICENSE.txt)
 
 Summary: Google Cloud AutoML API client library
+
+Development: https://github.com/googleapis/python-automl
+
+Documentation: https://googleapis.dev/python/automl/latest/index.html
 
 Google Cloud AutoML API is a suite of machine learning products that enables developers with limited machine learning expertise to train high-quality models specific to their business needs, by leveraging Google’s state-of-the-art transfer learning, and Neural Architecture Search technology.
 See the [quick start guide](https://googleapis.dev/python/automl/latest/index.html#quick-start).
