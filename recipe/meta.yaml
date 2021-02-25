@@ -1,5 +1,5 @@
 {% set name = "google-cloud-automl" %}
-{% set version = "1.0.1" %}
+{% set version = "2.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f08abe78d37fb94a3748aa43e66dae2bad52f991cc7740501a341bc6f6387fd5
+  sha256: 520dfe2ee04d28f3088c9c582fa2a534fc272647d5e2e59acc903c0152e61696
 
 build:
   number: 0
@@ -16,11 +16,13 @@ build:
 
 requirements:
   host:
-    - python >=3.4
+    - python >=3.6
     - pip
   run:
-    - python >=3.4
-    - google-api-core-grpc >=1.14.0,<2.0.0dev
+    - python >=3.6
+    - google-api-core-grpc >=1.22.0,<2.0.0dev
+    - proto-plus >=1.10.0
+    - libcst >=0.2.5
 
 test:
   imports:
