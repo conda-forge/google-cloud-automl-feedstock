@@ -1,5 +1,5 @@
 {% set name = "google-cloud-automl" %}
-{% set version = "2.1.0" %}
+{% set version = "2.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 520dfe2ee04d28f3088c9c582fa2a534fc272647d5e2e59acc903c0152e61696
+  sha256: 874defad583e90e55a3e83aff27eb5fe108d9197d839cd45f3eacf2395881806
 
 build:
   number: 0
@@ -38,12 +38,9 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: 'Google Cloud AutoML API client library'
-  description: Google Cloud AutoML API is a suite of machine learning products that enables developers with
-    limited machine learning expertise to train high-quality models specific to their business needs, by
-    leveraging Google’s state-of-the-art transfer learning, and Neural Architecture Search technology.
-
-    See the [quick start guide](https://googleapis.dev/python/automl/latest/index.html#quick-start).
+  summary: Google Cloud AutoML API client library
+  description: "Google Cloud AutoML API is a suite of machine learning products that enables developers with limited machine learning expertise to train high-quality models specific to their business needs, by leveraging Google’s state-of-the-art transfer learning, and Neural Architecture Search technology.\nSee the [quick\
+    \ start guide](https://googleapis.dev/python/automl/latest/index.html#quick-start)."
 
   doc_url: https://googleapis.dev/python/automl/latest/index.html
   dev_url: https://github.com/googleapis/python-automl
