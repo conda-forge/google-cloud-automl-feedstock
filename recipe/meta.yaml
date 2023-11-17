@@ -1,5 +1,5 @@
 {% set name = "google-cloud-automl" %}
-{% set version = "2.11.3" %}
+{% set version = "2.11.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-automl-{{ version }}.tar.gz
-  sha256: 55ca909fbc36b13a431ca7e78b0930b045c36bc60857e1b58e56cf3aef0d565d
+  sha256: a143174169301cc148dba8697b7ea6032a21f9b42882dca80e04da05169cb545
 
 build:
   number: 0
@@ -34,7 +34,7 @@ test:
     - pip
 
 about:
-  home: https://github.com/googleapis/python-automl
+  home: https://github.com/googleapis/google-cloud-python
   summary: Google Cloud Automl API client library
   license: Apache-2.0
   license_family: Apache
