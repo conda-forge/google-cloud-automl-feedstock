@@ -3,7 +3,7 @@ About google-cloud-automl-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-automl-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/googleapis/python-automl
+Home: https://github.com/googleapis/google-cloud-python
 
 Package license: Apache-2.0
 
