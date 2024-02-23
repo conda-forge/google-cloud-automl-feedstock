@@ -1,5 +1,5 @@
 {% set name = "google-cloud-automl" %}
-{% set version = "2.13.1" %}
+{% set version = "2.13.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-automl-{{ version }}.tar.gz
-  sha256: 02167929d4a9c494bc8c77f025f2f3b4cb721993a70b085bfe56a5acf67d8e88
+  sha256: d90273ab8b74a28d7c81b237cc5cf92b189d3a47d2b90dac8cd36722527ba24e
 
 build:
   number: 0
@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python >=3.7
-    - google-api-core >=1.34.0,<3.0.0dev,!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,!=2.9.*,!=2.10.*
+    - google-api-core >=1.34.1,<3.0.0dev,!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,!=2.9.*,!=2.10.*
     - google-api-core-grpc
     - google-auth >=2.14.1,<3.0.0dev
     - proto-plus >=1.22.3,<2.0.0dev
