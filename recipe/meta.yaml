@@ -1,5 +1,5 @@
 {% set name = "google-cloud-automl" %}
-{% set version = "2.17.0" %}
+{% set version = "2.18.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/google_cloud_automl-{{ version }}.tar.gz
-  sha256: 16777b5fbe64b76f8737aeb9645418bfdf924f7c2ca350f1fd55625328207e9c
+  sha256: 17d254d2eb2f2050315907a6e3d2e9a03e0a6c9fb26aad5a928089eea5214572
 
 build:
   number: 0
