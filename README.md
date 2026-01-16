@@ -14,7 +14,7 @@ Development: https://github.com/googleapis/google-cloud-python/tree/main/package
 Documentation: https://googleapis.dev/python/automl/latest/index.html
 
 Google Cloud AutoML API is a suite of machine learning products that enables developers with limited machine learning expertise to train high-quality models specific to their business needs, by leveraging Google’s state-of-the-art transfer learning, and Neural Architecture Search technology.
-See the [quick start guide](https://googleapis.dev/python/automl/latest/index.html#quick-start).
+See the [quick:: - start guide](https://googleapis.dev/python/automl/latest/index.html#quick-start).
 
 Current build status
 ====================
