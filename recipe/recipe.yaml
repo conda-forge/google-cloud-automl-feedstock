@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-automl
-  version: "2.19.0"
+  version: "2.20.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/google_cloud_automl-${{ version }}.tar.gz
-  sha256: c7267b59a7eff7b15207fe68689ebb3fb9226a7e272ff13bf2750bf6871458ce
+  sha256: dc1699383c66dca68379c2fa88cd09433f663b068ebce4e76f51c9f2c08ecc40
 
 build:
   number: 0
@@ -24,7 +24,7 @@ requirements:
     - setuptools
   run:
     - python >=${{ python_min }}
-    - google-api-core >=2.11.0,<3.0.0
+    - google-api-core >=2.17.1,<3.0.0
     - google-api-core-grpc
     - google-auth >=2.14.1,<3.0.0,!=2.24.0,!=2.25.0
     # more restrictive constraint for python >=3.14
