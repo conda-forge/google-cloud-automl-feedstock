@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-automl
-  version: "2.20.1"
+  version: "2.21.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/google_cloud_automl-${{ version }}.tar.gz
-  sha256: 3c8676d64c5c0604177092fbee3373cb4e2a7da36c7c1632e9634084837e064d
+  sha256: 1495c9f244194ee3c69e93f2fa489eb9e0fa2fb53bf35bb908d578f3054a2620
 
 build:
   number: 0
